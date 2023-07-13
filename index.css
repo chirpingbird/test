@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;  
+}
+
+.home-score, .guest-score {
+    width: 155px;
+    height: 120px;
+    flex-shrink: 0;
+    background-color: black;
+}
+
+h3 {
+    color: white;
+}
